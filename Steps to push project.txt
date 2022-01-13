@@ -1,0 +1,33 @@
+Git Commands:
+git config --global user.name "Subhash"
+git config -=-global user.email "subhashdixit17@gmail.com"
+git config --global core.editor emacs
+git config --global core.editor vim
+git config user.name
+
+Git - Three stage architecture:
+Local Operations
+Working Directory --> Staging Area --> Git Depository (Repository)
+<------------Checkout the project
+stage files ---------------->Commit------------>
+
+Working Directory --> Files where we start work
+Staging Area --> Files which we want to send to next commit
+Commit --> Snapshots
+Git Depository --> .git folder or hidden folder (Compressed file available)--> Based on command it will execute
+
+How to deposit folde into github:
+Go to your folder and open git bash :
+1) Create one repositary in github online
+In gitbash:
+2) git config --global user.name "Subhash Dixit"
+2) git config --global user.email "subhashdixit17@gmail.com
+3) touch .gitignore
+4) git init --> It will initialize the git.
+5) git add . --> It will create staging area.
+6) git commit -m "Initial commit" --> It will create node e.g snapshot taken.
+7) git status --> It will tell about the status.
+8) git remote add origin git@github.com:subhashdixit/Whatsapp-Personal-Chat-Analysis.git --> Copy the ssh key and paste it.
+9) ssh-keygen -t rsa -b 4096 -C "subhashdixit17@gmail.com" --> Generate ssh key for windows
+10) cat ~/.ssh/id_rsa.pub --> To get ssh key or you can copy punlick key path and with cat command run it.
+11) git push origin master --? To push your project on github. --> Project reposited successfully.
