@@ -31,3 +31,8 @@ In gitbash:
 9) ssh-keygen -t rsa -b 4096 -C "subhashdixit17@gmail.com" --> Generate ssh key for windows
 10) cat ~/.ssh/id_rsa.pub --> To get ssh key or you can copy punlick key path and with cat command run it.
 11) git push origin master --? To push your project on github. --> Project reposited successfully.
+12) To push new file in the old folder:
+	a) git status
+	b) git add .
+	c) git commit -m "Added steps to push project"
+	d) git push origin master
